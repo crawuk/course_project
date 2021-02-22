@@ -29,7 +29,7 @@ void changeX (testclass &value)
 
 int main()
 {
-    /*
+    
     Human alex;
     alex.age = 25;
     alex.surname = "alexandrov";
@@ -41,9 +41,9 @@ int main()
     natasha.age = 20;
     natasha.surname = "ivanova";
     natasha.print();
-    */
     
-    /*
+    
+    
     point a(5, 44);
     a.print();
     a.SetX(78);
@@ -56,7 +56,7 @@ int main()
     point n;
     n.SetXWithThisKeyword(6);
     n.print();
-    */
+    
     
     myclass d(1);
     myclass e(d);
@@ -66,29 +66,6 @@ int main()
     cout << yt[3] << endl;
     */
     
-    return 0;
-}
-
-
-
-
-
-
-
-// односвязные списки. полезны если требуется частое удаление или добавление эл-тов в массив. меньшая нагрузка на память
-
-/*  map
-int main(int argc, const char * argv[])
-{
-    pair<int, string> p (1, "string"); // pairs
-    cout << p.first << endl;
-    cout << p.second << endl;
-    
-    map<int, string> Map;
-    Map.insert(make_pair(1, "phone"));            // одно и то же
-    Map.insert(pair<int, string> (2, "laptop"));  // одно и то же
-    Map.emplace(3, "PC");                         // одно и то же
     
     return 0;
 }
-*/
